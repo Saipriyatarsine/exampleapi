@@ -1,0 +1,28 @@
+<html>
+<head>
+<script type="text/javascript" src="./estimate.php"></script>
+	<title>Estimation </title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+<body>
+
+    <h2>Requirements</h2>
+
+    <form action="estimate.php" method="POST"> 
+    	Property:
+    	<select name="size">
+    		<option value="1BHK">1BHK</option>
+    		<option value="2BHK">2BHK</option>
+    		<option value="3BHK">3BHK</option>
+    		<option value="3+BHK">3+BHK</option>
+
+    	</select><br> From
+        <input type="text" name="from"> <br>
+        To
+        <input type="text" name="to"> <br>Date: 
+        <input type="datetime-local" name="Date"> <br>
+        <input type="submit" value="Submit" >
+
+    </form>
+</body>
+</html>
